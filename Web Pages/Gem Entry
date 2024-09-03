@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('https://img.freepik.com/premium-photo/dark-gym-with-row-exercise-machines-window-with-lights_876956-1217.jpg?w=826');
+            background-size: 1700px 900px;
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 22px;
+            top: 22px;
+        }
+
+        .left img {
+            width: 130px;
+            border-radius: 50px;
+
+        }
+
+        .mid {
+            display: block;
+            background-color: lightblue;
+            font-size: 2px;
+            border: 2px solid gray;
+            border-radius: 30px;
+            width: 33%;
+            padding: 1px 2px;
+            margin: 15px auto;
+            margin-top: 21px;
+
+        }
+
+        .nav {
+            display: inline block;
+        }
+
+        .nav li {
+            display: inline-block;
+        }
+
+        .nav li a {
+            color: black;
+            text-decoration: none;
+            padding: 36px;
+            font-size: 25px;
+        }
+
+        .nav li a:hover,
+        .nav li a:active {
+            text-decoration: underline;
+            color: white);
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: lightblue;
+            padding: 6px 17px;
+            border: 2px solid gray;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        h1 {
+
+            display: inline block;
+            background-color: rgba(231, 231, 228, 0.897);
+            color: black;
+            margin: auto;
+            border-radius: 40px;
+            margin-top: 70px;
+            font-size: 50px;
+            width: 700px;
+            text-align: center;
+            top: 40px;
+            padding: 20px;
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 250px 200px;
+            margin-top: 30px;
+            padding: 70px;
+            width: 23%;
+            border-radius: 30px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 300px;
+            padding: 15px;
+            border-radius: 30px;
+            margin: 3px auto;
+            font-size: 18px;
+        }
+
+        .container button {
+            text-align: center;
+            display: block;
+            width: 330px;
+            padding: 11px;
+            border-radius: 30px;
+            margin: 3px auto;
+            font-size: 18px;
+        }
+
+        .container h2 {
+            background-color: lightblue;
+            width: 400px;
+            color: bold black;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 40px;
+        
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Gym logo.jpg">
+        </div>
+        <div class="mid">
+
+            <ul class="nav">
+
+
+                <li><a href="#" class="active"> Home </a></li>
+                <li> <a href="#"> About </a></li>
+                <li> <a href="#"> Contact us</a></li>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <h1>Welcome To Fitness Club</h1>
+    <div class="container">
+        <h2> Register Yourself Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your age">
+            </div>
+            <div class="form-group">
+                <input type="tel" name="" placeholder="Enter phone Numbers">
+            </div>
+            <div class="form-group">
+                <input type="Email" name="" placeholder="Enter Your Email Address ">
+            </div>
+            <button class="btn">Submit Now</button>
+
+        </form>
+    </div>
+
+</body>
